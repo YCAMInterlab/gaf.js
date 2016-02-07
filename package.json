@@ -1,6 +1,6 @@
 {
   "name": "gaf",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A Minimal WebGL Application Framework",
   "main": "gaf.js",
   "scripts": {
