@@ -9,7 +9,7 @@ class Param extends EventHandler {
     this.value = props.value;
     this.min = props.min;
     this.max = props.max;
-    this.type = this.type ? this.type : typeof this.value;    
+    this.type = props.type ? props.type : typeof this.value;
   };
 
   setValue = ( value ) => {
