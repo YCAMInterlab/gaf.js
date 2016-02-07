@@ -4,7 +4,6 @@ var EventHandler = Samsara.Events.EventHandler;
 
 class Param extends EventHandler {
   constructor( props ) {
-    super( props );
     this.key = props.key;
     this.value = props.value;
     this.min = props.min;
