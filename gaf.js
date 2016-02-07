@@ -1,3 +1,4 @@
 import App from './gaf/App'
+import Param from './gaf/Param'
 
-export default App
+export { App, Param };
