@@ -3,6 +3,7 @@ import glContext from 'gl-context';
 export default class App {
   constructor( props ) {
     this.canvas = document.body.appendChild( document.createElement( 'canvas' ) );
+    this.canvas.style.zIndex = -1; 
     this.gl = glContext( this.canvas, { preserveDrawingBuffer: true }, this._render );
     this.isSetup = false;
   };
