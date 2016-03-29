@@ -36,7 +36,7 @@ var canvas = myApp.getCanvas();
 ```        
 
 ## Motivation
-This library is part of a larger project / series of libraries that aspires to bring computational and parametric design applications to the web. This library aspires to provide application infrastructure to power all types of complex geometry operations that enable higher level computational design, 3d printing, g-code generation, cnc milling tool path creation, laser cutting paths, robotic motion planning, and more.
+This library is part of a larger project / series of libraries that aspires to bring computational and parametric design applications to the web. This library aspires to provide application infrastructure to power all types of applications dealing with computational design, 3d printing, g-code generation, cnc milling tool path creation, laser cutting paths, robotic motion planning, and more.
 
 ## Build Requirements
 node.js (4.4.0+) & npm
